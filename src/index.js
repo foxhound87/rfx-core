@@ -1,7 +1,10 @@
 import dotenv from 'dotenv';
 import getenv from 'getenv';
+
 import match from './match';
 import seeder from './seeder.runner';
+
+/* server */
 import { log, logInit, logServerConfig } from './logger';
 import { setupServer, startServer } from './server.start';
 import { setupServices, initServices } from './services.autoload';
