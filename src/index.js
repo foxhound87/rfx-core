@@ -1,6 +1,3 @@
-import dotenv from 'dotenv';
-import getenv from 'getenv';
-
 import match from './match';
 import seeder from './seeder.runner';
 
@@ -21,8 +18,6 @@ import { toggle } from './decorators/toggle';
 
 
 export {
-  dotenv,
-  getenv,
   match,
   seeder,
 

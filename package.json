@@ -45,16 +45,15 @@
     }
   },
   "dependencies": {
-    "dotenv": "2.0.0",
-    "getenv": "0.7.0",
-    "globule": "1.1.0",
     "json-stringify-safe": "5.0.1",
     "lodash": "4.16.6",
-    "safe-access": "0.1.0",
-    "winston": "2.3.0"
+    "safe-access": "0.1.0"
   },
   "peerDependencies": {
-    "mobx": "^2.6.0"
+    "globule": "1.1.0",
+    "getenv": "0.7.0",
+    "mobx": "^2.6.0",
+    "winston": "2.3.0"
   },
   "devDependencies": {
     "babel-cli": "6.18.0",
