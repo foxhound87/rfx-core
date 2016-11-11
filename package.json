@@ -50,10 +50,7 @@
     "safe-access": "0.1.0"
   },
   "peerDependencies": {
-    "globule": "1.1.0",
-    "getenv": "0.7.0",
-    "mobx": "^2.6.0",
-    "winston": "2.3.0"
+    "mobx": "^2.6.0"
   },
   "devDependencies": {
     "babel-cli": "6.18.0",
