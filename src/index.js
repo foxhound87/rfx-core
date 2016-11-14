@@ -10,6 +10,7 @@ import { fetchData, fetchDataOnLocationMatch } from './state/fetch';
 import { extend } from './decorators/extend';
 import { toggle } from './decorators/toggle';
 
+console.log('@@@@ OK');
 
 export {
   match,

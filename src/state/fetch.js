@@ -5,10 +5,17 @@ import _ from 'lodash';
   and injecting store, router params and query.
   Used on the server-side. It returns a Promise.
  */
-export function fetchData(store, components, params, query) {
-  return Promise.all(components
+export function fetchData(store, props) {
+  return Promise.all(props.components
     .filter(component => _.isFunction(component.fetchData))
-    .map(component => component.fetchData({ store, params, query })));
+    .map(component => component.fetchData({
+      store,
+      location: props.location,
+      params: props.params,
+      query: props.location.query,
+      router: props.router,
+      routes: props.routes,
+    })));
 }
 
 /**
@@ -17,14 +24,7 @@ export function fetchData(store, components, params, query) {
   Used on the client-side.
  */
 export function fetchDataOnLocationMatch(history, routes, match, store) {
-  let ssrLocation = store.app.ssrLocation;
-  history.listen((e) => {
-    if (e.pathname !== ssrLocation) {
-      match({ routes, location: e.pathname }, (error, redirect, props) => {
-        if (props) fetchData(store, props.components, props.params, props.location.query);
-      });
-    }
-    // enable subsequent fetches
-    ssrLocation = false;
-  });
+  history.listen(_.after(1, route =>
+    match({ routes, location: route.pathname }, (error, redirect, props) =>
+      props && fetchData(store, props))));
 }

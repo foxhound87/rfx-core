@@ -11,3 +11,16 @@
 
 
 [![NPM](https://nodei.co/npm/rfx-core.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/rfx-core/)
+
+
+## [DOCUMENTATION](https://github.com/foxhound87/rfx-core/blob/master/DOCUMENTATION.md)
+
+## Credits
+
+Thanks to [Eric John Juta](https://github.com/rej156) for his contribution about the **Hot-Reloadable MobX Stores** implementation.
+
+## Contributing
+
+If you want to contribute to the development, do not hesitate to fork the repo and send pull requests.
+
+And don't forget to star the repo, I will ensure more frequent updates! Thanks!
