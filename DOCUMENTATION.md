@@ -82,6 +82,8 @@ export default class Test extends Component {
 
 Create your stores files as Classes with `export default class` and then assigns them a key in the store.setup() method.
 
+> It handles automatic state injection if used in conjunction with state hydration methods.
+
 ```javascript
 import { store } from 'rfx-core';
 
