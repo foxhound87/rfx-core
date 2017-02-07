@@ -7,7 +7,7 @@ import _ from 'lodash';
  */
 export function fetchData(store, props) {
   return Promise.all(props.components
-    .filter(component => _.isFunction(component.fetchData))
+    .filter(component => component && _.isFunction(component.fetchData))
     .map(component => component.fetchData({
       store,
       location: props.location,
