@@ -47,7 +47,6 @@
   "dependencies": {
     "json-stringify-safe": "5.0.1",
     "lodash": "4.16.6",
-    "query-string": "^5.0.1",
     "safe-access": "0.1.0"
   },
   "peerDependencies": {
