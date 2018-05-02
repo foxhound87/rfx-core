@@ -8,14 +8,12 @@ import { fetchData, fetchDataOnLocationMatch } from './state/fetch';
 
 /* decorators */
 import { extend } from './decorators/extend';
-import { toggle } from './decorators/toggle';
 
 export {
   match,
 
   /* decorators */
   extend,
-  toggle,
 
   /* state */
   store,
