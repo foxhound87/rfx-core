@@ -4,7 +4,7 @@ export default ({
     return (ENV === env);
   },
   type(type) {
-    const TYPE = global.TYPE;
+    const { TYPE } = global;
     return (TYPE === type);
   },
   script(target, env = null) {

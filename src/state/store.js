@@ -3,7 +3,6 @@ import { action } from 'mobx';
 import _ from 'lodash';
 
 class Store {
-
   $stores = {};
 
   $imports = {};
