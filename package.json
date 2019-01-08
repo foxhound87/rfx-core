@@ -14,7 +14,7 @@
     "build": "babel -d lib/ src/",
     "prebuild": "npm run clean:all",
     "precommit": "npm run lint && npm run cover",
-    "commit": "git add . && git-cz && git push origin",
+    "commit": "git-cz && git push origin",
     "watch:build": "babel --watch -d lib/ src/",
     "watch:test": "npm run test -- -w",
     "test": "mocha tests --compilers js:babel-register",
@@ -47,7 +47,7 @@
     "safe-access": "0.1.0"
   },
   "peerDependencies": {
-    "mobx": "^2.5.0 || ^3.0.0 || ^4.0.0"
+    "mobx": "^2.5.0 || ^3.0.0 || ^4.0.0 || ^5.0.0"
   },
   "devDependencies": {
     "babel-cli": "6.22.0",
