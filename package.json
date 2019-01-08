@@ -1,7 +1,7 @@
 {
   "name": "rfx-core",
   "license": "MIT",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.0-development",
   "author": "Claudio Savino <claudio.savino@me.com> (https://twitter.com/foxhound87)",
   "description": "RFX Core - Collection of core functionalities of RFX Stack",
   "homepage": "https://www.npmjs.com/package/rfx-core",
@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "json-stringify-safe": "5.0.1",
-    "lodash": "4.16.6",
+    "lodash": "^4.17.11",
     "safe-access": "0.1.0"
   },
   "peerDependencies": {
@@ -77,6 +77,6 @@
     "mocha": "3.1.2",
     "nyc": "10.1.2",
     "rimraf": "2.5.4",
-    "semantic-release": "^15.2.0"
+    "semantic-release": "^15.13.2"
   }
 }
