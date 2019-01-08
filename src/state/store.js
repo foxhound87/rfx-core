@@ -33,10 +33,14 @@ class Store {
 
   @action
   initializeStores(state) {
+    const _state = _.isString(state)
+      ? JSON.parse(state)
+      : state;
+
     Object.keys(this.$imports)
       .forEach((key) => {
         const StoreClass = this.$imports[key];
-        const $state = state[key] || {};
+        const $state = _state[key] || {};
         const $obj = new StoreClass($state);
         const $extend = $obj.___extend || null;
         Object.assign($obj, $state);
