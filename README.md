@@ -2,22 +2,20 @@
 
 ##### RFX Core - Collection of core functionalities of RFX Stack.
 
-[![Travis Build](https://img.shields.io/travis/foxhound87/rfx-core.svg)](https://travis-ci.org/foxhound87/rfx-core)
+![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/foxhound87/rfx-core/ci.yml?branch=master)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/foxhound87/rfx-core)
 [![Codecov Coverage](https://img.shields.io/codecov/c/github/foxhound87/rfx-core/master.svg)](https://codecov.io/gh/foxhound87/rfx-core)
 [![Downloads](https://img.shields.io/npm/dt/rfx-core.svg)]()
 [![npm](https://img.shields.io/npm/v/rfx-core.svg)]()
 [![node](https://img.shields.io/node/v/rfx-core.svg)]()
+![npm bundle size](https://img.shields.io/bundlephobia/min/rfx-core)
 [![GitHub license](https://img.shields.io/github/license/foxhound87/rfx-core.svg)]()
-
+[![Downloads](https://img.shields.io/npm/dt/rfx-core.svg)]()
+[![Downloads](https://img.shields.io/npm/dm/rfx-core.svg)]()
 
 [![NPM](https://nodei.co/npm/rfx-core.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/rfx-core/)
 
-
 ## [DOCUMENTATION](https://github.com/foxhound87/rfx-core/blob/master/DOCUMENTATION.md)
-
-## Credits
-
-Thanks to [Eric John Juta](https://github.com/rej156) for his contribution about the **Hot-Reloadable MobX Stores** implementation.
 
 ## Contributing
 

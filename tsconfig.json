@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "lib", // La directory in cui verranno generati i file compilati
+    "rootDir": "src", // La directory dei file TypeScript di origine
+    "target": "ES6",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "lib"]
+}
