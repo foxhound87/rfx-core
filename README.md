@@ -1,4 +1,4 @@
-### [Repo](https://github.com/foxhound87/rfx-core) &bull; [NPM](https://www.npmjs.com/package/rfx-core) &bull; [MobX React Form](https://github.com/foxhound87/mobx-react-form) &bull; [Documentation](https://github.com/foxhound87/rfx-core/blob/master/DOCUMENTATION.md) &bull; [Live Demo](https://foxhound87.github.io/mobx-react-form-demo) &bull; [Join Discord Channel](https://discord.gg/CVV8w4zat4)
+### [Repo](https://github.com/foxhound87/rfx-core) &bull; [NPM](https://www.npmjs.com/package/rfx-core) &bull; [Documentation](DOCUMENTATION.md)
 
 # RFX Core
 
@@ -21,7 +21,7 @@
 ## Features
 
 - Core utilities shared across the RFX ecosystem
-- Type-safe helpers for MobX React Form, DevTools, and related packages
+- Type-safe helpers and shared interfaces
 - Pattern matching utilities (`match` function)
 
 ## Documentation
